@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <CheckBox layoutX="140.0" layoutY="107.0" mnemonicParsing="false" text="CheckBox" />
+      <Button fx:id="b1" layoutX="248.0" layoutY="145.0" mnemonicParsing="false" onAction="#f1" prefHeight="48.0" prefWidth="52.0" />
+      <Button fx:id="b6" layoutX="352.0" layoutY="145.0" mnemonicParsing="false" onAction="#f6" prefHeight="48.0" prefWidth="52.0" />
+      <Button fx:id="b5" layoutX="300.0" layoutY="145.0" mnemonicParsing="false" onAction="#f5" prefHeight="48.0" prefWidth="52.0" />
+      <Button fx:id="b2" layoutX="248.0" layoutY="100.0" mnemonicParsing="false" onAction="#f2" prefHeight="48.0" prefWidth="52.0" />
+      <Button fx:id="b3" layoutX="300.0" layoutY="100.0" mnemonicParsing="false" onAction="#f3" prefHeight="48.0" prefWidth="52.0" />
+      <Button fx:id="b4" layoutX="352.0" layoutY="100.0" mnemonicParsing="false" onAction="#f4" prefHeight="48.0" prefWidth="52.0" />
+      <Button fx:id="b9" layoutX="352.0" layoutY="193.0" mnemonicParsing="false" onAction="#f9" prefHeight="48.0" prefWidth="52.0" />
+      <Button fx:id="b7" layoutX="248.0" layoutY="193.0" mnemonicParsing="false" onAction="#f7" prefHeight="48.0" prefWidth="52.0" />
+      <Button fx:id="b8" layoutX="300.0" layoutY="193.0" mnemonicParsing="false" onAction="#f8" prefHeight="48.0" prefWidth="52.0" />
+      <Label fx:id="myLabel" layoutX="199.0" layoutY="42.0" prefHeight="28.0" prefWidth="229.0" text="Label" />
+   </children>
+</AnchorPane>
